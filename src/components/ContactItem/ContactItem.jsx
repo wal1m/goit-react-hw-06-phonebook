@@ -1,4 +1,4 @@
-import { useSelector, useDispatch } from 'react-redux';
+import {  useDispatch } from 'react-redux';
 import { deleteContact } from '../../redux/contacts/contacts-actions';
 import { createUseStyles } from 'react-jss';
 import PropTypes from 'prop-types';

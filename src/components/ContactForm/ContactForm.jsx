@@ -2,7 +2,6 @@ import { useState } from 'react';
 // import { connect } from 'react-redux';
 import { useDispatch } from 'react-redux';
 import { addContact } from '../../redux/contacts/contacts-actions';
-import PropTypes from 'prop-types';
 import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles({
@@ -69,6 +68,3 @@ const ContactForm = () => {
 
 export default ContactForm;
 
-// ContactForm.propTypes = {
-//   onSubmit: PropTypes.func.isRequired,
-// };
